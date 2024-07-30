@@ -9,7 +9,7 @@ import src.gauges.gauge as g
 
 # calibration = g.AnalogGauge.calibrate()
 # analog_gauge = g.AnalogGauge(calibration)
-analog_gauge = g.AnalogGauge('camera_1_analog_gauge_1.xml')
+analog_gauge = g.AnalogGauge('camera_1_analog_gauge_5.xml')
 analog_gauge.initialize(force_train=True)
 analog_gauge.visual_test()
 analog_gauge.get_reading('demo.jpg')
